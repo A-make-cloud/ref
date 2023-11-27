@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {}
+
+#header {
+    width: 100%;
+    height: 100vh;
+
+}
+
+#traits {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#circle {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.loader {
+    padding: 2px;
+    width: calc(100% - 0px);
+    height: calc(100% - 0px);
+    border: 3px solid #212529;
+    border-radius: 50%;
+    border-bottom: 3px solid #ff004f;
+    border-top: 3px solid #ff004f;
+
+    animation: rotate 3s linear 1;
+
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(360deg);
+
+    }
+
+    /* 100% {
+        transform: rotate(0);
+
+    } */
+
+}
+
+/*   CERCLES   */
+#preloaderCircle {
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    animation: goon 0s 3s 1 ease forwards;
+
+}
+
+#trait1 {
+    margin-bottom: 100px;
+    height: 2px;
+    background: #ff004f;
+    /* animation: openline1 10s 5s 1 ease forwards; */
+    animation: screem1 10s 4s 1 ease forwards;
+
+}
+
+#trait2 {
+    margin-top: 10px;
+
+    height: 2px;
+    background: #ff004f;
+    /* animation: ligne2 10s 5s 1 ease forwards; */
+    animation-delay: 0ms;
+    animation: ended2 10s 4s 1 ease forwards;
+
+}
+
+@keyframes screem1 {
+
+    0% {
+        opacity: 1;
+        width: 0px;
+        height: 100vh;
+        margin: 0px
+    }
+
+    25% {
+        opacity: 1;
+        width: 1px;
+        height: 100vh;
+        margin: 0px
+    }
+
+    75% {
+        opacity: 1;
+        width: 200vw;
+        height: 100vh;
+        margin: 0px
+    }
+
+    100% {
+        opacity: 1;
+        width: 0vw;
+        height: 100vh;
+        margin: 0px
+    }
+
+
+}
+
+
+
+@keyframes ended2 {
+
+    0% {
+        opacity: 1;
+        width: 0px;
+        height: 100vh;
+        margin: 0px
+    }
+
+    25% {
+        opacity: 1;
+        width: 1px;
+        height: 100vh;
+        margin: 0px
+    }
+
+    75% {
+        opacity: 1;
+        width: 200vw;
+        height: 100vh;
+        margin: 0px
+    }
+
+    100% {
+        opacity: 1;
+        width: 0vw;
+        height: 100vh;
+        margin: 0px
+    }
+
+}
+
+
+/*   TRAITS   */
+#preloader {
+    background-color: #212529;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    animation: goon 5s 10s 1 ease forwards;
+}
+
+@keyframes goon {
+    0% {
+        display: block;
+        opacity: 1;
+        z-index: 101;
+    }
+
+    100% {
+        display: none;
+        opacity: 0;
+        z-index: 0;
+    }
+
+}
