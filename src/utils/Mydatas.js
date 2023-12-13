@@ -19,6 +19,26 @@ import room from '../assets/images/room1.png'
 
 
 export const mydatas = [
+   {
+    name: "Bioshop Cart",
+    image: bioshop,
+    technologies: "Html, Css, JavaScript",
+    summary: `Un site e-commerce, essentiellement réalisé en JavaScript; affichage des produis et insertion dans un panier`,
+    description: "",
+    deployment: "https://a-make-cloud.github.io/bio-shop-js/",
+    video: "",
+    visible: true,
+  },
+   {
+    name: "Education Artistique",
+    image: educosol,
+    technologies: "Html, Css, JavaScript",
+    summary: "Site de présentation avec animation css et JavaScript",
+    description: "",
+    deployment: "https://a-make-cloud.github.io/edu_js/",
+    video: "",
+    visible: true,
+  },
   {
     name: "Heart Rainning",
     image: heartrainning,
@@ -41,48 +61,7 @@ export const mydatas = [
     video: "",
     visible: true,
   },
-  {
-    name: "Bioshop Cart",
-    image: bioshop,
-    technologies: "Html, Css, JavaScript",
-    summary: `Un site e-commerce, essentiellement réalisé en JavaScript; affichage des produis et insertion dans un panier`,
-    description: "",
-    deployment: "https://a-make-cloud.github.io/bio-shop-js/",
-    video: "",
-    visible: true,
-  },
-  {
-    name: "Minimos Mountain",
-    image: minimo,
-    technologies: "Html, Css",
-    summary: "Site vitrine",
-    description: "",
-    deployment: "https://a-make-cloud.github.io/minimos/",
-    video: "",
-    visible: true,
-  },
-  {
-    name: "Education Artistique",
-    image: educosol,
-    technologies: "Html, Css, JavaScript",
-    summary: "Site de présentation avec animation css et JavaScript",
-    description: "",
-    deployment: "https://a-make-cloud.github.io/edu_js/",
-    video: "",
-    visible: true,
-  },
-  {
-    name: "O2connect",
-    image: o2connect,
-    technologies: "Html, Css",
-    summary: "Détecteur d'air connecté, donnée des particules dans l'air et de pollution",
-    description: "",
-
-    deployment: "https://a-make-cloud.github.io/o2connect_js/",
-    video: "",
-    visible: true,
-  },
-  {
+   {
     name: "Slot Machine",
     image: slotmachine,
     technologies: "Html, CSS, JavaScript",
@@ -94,6 +73,21 @@ export const mydatas = [
     video: "",
     visible: true,
   },
+ 
+
+ 
+  {
+    name: "O2connect",
+    image: o2connect,
+    technologies: "Html, Css",
+    summary: "Détecteur d'air connecté, donnée des particules dans l'air et de pollution",
+    description: "",
+
+    deployment: "https://a-make-cloud.github.io/o2connect_js/",
+    video: "",
+    visible: true,
+  },
+ 
   {
     name: "Omega Cart",
     image: omega,
@@ -112,6 +106,16 @@ export const mydatas = [
     description: "",
 
     deployment: "https://a-make-cloud.github.io/todolist_react/",
+    video: "",
+    visible: true,
+  },
+    {
+    name: "Minimos Mountain",
+    image: minimo,
+    technologies: "Html, Css",
+    summary: "Site vitrine",
+    description: "",
+    deployment: "https://a-make-cloud.github.io/minimos/",
     video: "",
     visible: true,
   },
